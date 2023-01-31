@@ -18,7 +18,7 @@ const NavTabs = () => {
   
   
   <li class="nav-item col-lg-2" role="presentation">
-    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+    <a class="nav-link text-center " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
     <span><i class="bi bi-box-seam"></i></span>
     <h4>Undaesenti</h4>
     </a>
