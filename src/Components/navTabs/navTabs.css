@@ -1,16 +1,25 @@
 .bi-binoculars{
   font-size: 40px !important;
 }
-/* .a{
-  background-color: aqua !important;
-  text-align: center !important;
-} */
 
-.modinest-heading{
+.nav .nav-item .nav-link{
+  box-shadow: 5px 5px 25px rgba(72,86,100,.15);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+.nav-pills .nav-link.active h4{
+  color: #fff !important;
+}
+  
+.tab-content .tab-pane h3{
   font-weight: 600;
   font-size: 36px;
   color: #485664;
 }
+
 .modinest-para{
   font-style: italic !important;
   color: #1a1f24 !important;
@@ -20,7 +29,37 @@
   color: #0EA2BD!important; 
   margin-right: 10px ;
 }
+
+
 .bi-box-seam{
   font-size: 40px !important;
-  color:#6B17F2 !important ; 
+  
+  color:#6B17F2  ; 
+}
+
+.nav-pills .nav-link.active  , .nav-pills .show>.nav-link {
+  color: white !important;
+  background-color: #22889F !important;
+}
+.nav-pills .nav-link.active .bi-box-seam   {
+  color: #fff !important;
+  background-color: #22889F !important;
+} 
+
+.Undaesenti h4{
+  color:#485664 ;
+}
+.nav-item h4{
+  color:#485664;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.bi-brightness-high{
+  font-size: 40px !important;
+  color: #46D2A9;
+}
+.nav-pills .nav-link.active .bi-brightness-high{
+  color: white;
 }
