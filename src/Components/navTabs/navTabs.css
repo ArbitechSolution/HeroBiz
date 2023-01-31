@@ -1,0 +1,26 @@
+.bi-binoculars{
+  font-size: 40px !important;
+}
+/* .a{
+  background-color: aqua !important;
+  text-align: center !important;
+} */
+
+.modinest-heading{
+  font-weight: 600;
+  font-size: 36px;
+  color: #485664;
+}
+.modinest-para{
+  font-style: italic !important;
+  color: #1a1f24 !important;
+}
+.bi-check-circle-fill{
+  font-size: 25px !important;
+  color: #0EA2BD!important; 
+  margin-right: 10px ;
+}
+.bi-box-seam{
+  font-size: 25px !important;
+  /* color: ; */
+}
