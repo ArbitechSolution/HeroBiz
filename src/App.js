@@ -6,7 +6,7 @@ import NavTabs from './Components/navTabs/navTabs';
 function App() {
   return (
    <>
-    {/* <Navbar /> */}
+    <Navbar />
 <NavTabs/>
    </>
   );
