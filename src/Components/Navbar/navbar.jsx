@@ -6,9 +6,9 @@ import heroCarouselImg from '../../assets/hero-carousel/hero-carousel-3.svg'
 const Navbar = () => {
   return (
     <>
-<section className='navBar' id='navBar'>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
+<section className='navBar position-fixed w-100 ' id='navBar'>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+  <div class="container-fluid   ">
     <a class="navbar-brand" href="#">
       <h1 className='brandname'>HeroBiz<span className='brandnamedot'>.</span></h1>
       
@@ -66,12 +66,12 @@ const Navbar = () => {
   </div>
 </nav>
 </section>
-<section className='hero-animated' id='hero-animated'>
-  <div className="container">
-    <div className="row ">
+<section className='hero-animated bg-light ' id='hero-animated'>
+  <div className="container" data-aos="zoom-out" data-aos-duration="3000">
+    <div className="row  ">
       <div className="col text-center">
         <img src={heroCarouselImg} alt="" className='img-fluid animated ' />
-        <div className="col">
+        <div className="col pt-5">
         <h2>Welcome to <span style={{color:"#0EA2BD"}}>HeroBiz</span></h2>
         <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
         <div className="col d-flex justify-content-center align-items-center">
@@ -85,11 +85,11 @@ const Navbar = () => {
     </div>
   </div>
 </section>
-<section className='featured-services' id='featured-services'>
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-3">
-        <div className="service-item">
+<section className='featured-services bg-light' id='featured-services' >
+  <div className="container" >
+    <div className="row py-5">
+      <div className="col-lg-3 col-md-6">
+        <div className="service-item " >
           <div className="icon">
           <i class="bi bi-activity"></i>
           </div>
@@ -97,7 +97,7 @@ const Navbar = () => {
           <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
         </div>
       </div>
-      <div className="col-lg-3">
+      <div className="col-lg-3 col-md-6">
         <div className="service-item">
           <div className="icon">
           <i class="bi bi-bounding-box-circles"></i>
@@ -106,7 +106,7 @@ const Navbar = () => {
           <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
         </div>
       </div>
-      <div className="col-lg-3">
+      <div className="col-lg-3 col-md-6">
         <div className="service-item">
           <div className="icon">
           <i class="bi bi-calendar4-week icon"></i>
@@ -115,8 +115,8 @@ const Navbar = () => {
           <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
         </div>
       </div>
-      <div className="col-lg-3 a">
-        <div className="service-item">
+      <div className="col-lg-3 col-md-6 ">
+        <div className="service-item position-relative">
           <div className="icon">
           <i class="bi bi-broadcast"></i>
           </div>

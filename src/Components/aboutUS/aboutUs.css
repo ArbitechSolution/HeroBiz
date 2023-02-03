@@ -1,0 +1,75 @@
+.section-header h2{
+  font-weight: 300;
+  color: #485664;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+.section-header p{
+  color: #8f9fae;
+  max-width: 80%;
+}
+
+
+.aboutBg-img{
+  background-image: url(../../assets/about-bg.png);
+ 
+}
+.about-img{
+  margin: 40px 0 0 40px;
+}
+
+.aboutUs h4{
+  color: #485664;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+ 
+/* About Us Css */
+.aboutUs .nav-link{
+  font-size: large;
+  font-weight: 500;
+  color: #485664;
+  
+}
+ 
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+  border-color: white white #DEE2E6 #fff ;
+  
+}
+
+.aboutUs .nav-link.active{
+  color: #1CA7C1 !important;
+}
+.aboutUs .nav-tabs{
+  margin-bottom: 16px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  border-color: white white #1CA7C1 #fff ;
+  border-bottom: 3px solid #1CA7C1;
+  
+}
+
+.aboutUs .tab-content .tab-pane p:first-child{
+  font-style: italic;
+}
+.aboutUs .tab-content .tab-pane p{
+
+margin-bottom: 12px;
+color: #485664;
+}
+
+.aboutUs .tab-content .tab-pane i{
+  color: #0ea3bd;
+  font-size: 2rem !important;
+ 
+  width: 30px !important;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.aboutUs .tab-content .tab-pane h6{
+  color: #485664;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
