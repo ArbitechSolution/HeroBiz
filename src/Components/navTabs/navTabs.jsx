@@ -10,7 +10,7 @@ const NavTabs = () => {
   return (
     <>
       <section className="features" id="features">
-        <div className="container">
+        <div className="container"  data-aos="fade-up" data-aos-duration="3000">
           <ul
             class="nav nav-pills red  row mb-3 "
             id="pills-tab"
@@ -126,14 +126,16 @@ const NavTabs = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tab"
             >
-              <div className="container">
+              <div className="container "  data-aos="fade-up" data-aos-duration="5000">
                 <div className="row">
                   <div className="col-lg-8 order-lg-1 order-2 ">
                     <h3>Modinest</h3>
                     <p>
+                   
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
+                      
                     </p>
 
                     <p>

@@ -73,3 +73,100 @@ color: #485664;
   font-weight: 700;
   margin-bottom: 0;
 }
+
+/* Client Section Css */
+.clients .carousel-item img{
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: all .5s ease-in-out;
+}
+.clients .carousel-item img:hover{
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Call to action Section */
+.cta_bg{
+  background-color: #ECEEEF !important;
+  padding: 100px !important;
+}
+.cta h3{
+  font-size: 2.5rem;
+  color:#485664;
+  font-weight: 700;
+  position: relative;
+  line-height: 3rem;
+}
+
+.cta p{
+  color: #485664bb ;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 3rem ;
+}
+.cta a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #1893A8;
+  border-radius: 4px;
+  
+  
+}
+
+.cta .cta_Btn{
+padding: 12px 35px;
+transition: all 0.3s ease-in-out;
+
+
+}
+.cta .cta_Btn:hover{
+  background-color: #0ea3bd;
+}
+
+/* OnFocus Section  */
+
+.onFocusVideoBgImg{
+  background:linear-gradient(rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.699)) ,url(../../assets/onfocus-video-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.onFocusVideoBgImg .bi-play{
+font-size: 40px !important;
+padding: 5px;
+background-color: #0ea3bde1;
+border-radius: 50%;
+position: absolute;
+top: 50%;
+left: 45%;
+transition: all 0.2s ease-in-out;
+
+}
+.onFocusVideoBgImg .bi-play:hover{
+  background-color: #1892a894;
+  transform: scale(1.2);
+}
+.onFocusContentBgImg{
+  background: linear-gradient(rgba(105, 103, 103, 0.507),rgba(116, 109, 109, 0.767)),url(../../assets/onfocus-content-bg.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+} 
+
+.onFocus .content h3{
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.onFocus .content .bi-check-circle-fill {
+  font-size: 25px !important;
+  color: #0ea2bd !important;
+  margin-right: 10px;
+  vertical-align: middle;
+  
+}
+.onFocus .content p{
+  color: white;
+}

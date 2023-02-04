@@ -1,7 +1,18 @@
 import React from 'react'
 import './aboutUs.css'
+// import onFocusVideoBgImg from '../../' 
+
 
 import aboutImg from '../../assets/about.jpg'
+import clientImg1 from '../../assets/clients/client-1.png'
+import clientImg2 from '../../assets/clients/client-2.png'
+import clientImg3 from '../../assets/clients/client-3.png'
+import clientImg4 from '../../assets/clients/client-4.png'
+import clientImg5 from '../../assets/clients/client-5.png'
+import clientImg6 from '../../assets/clients/client-6.png'
+import clientImg7 from '../../assets/clients/client-7.png'
+import clientImg8 from '../../assets/clients/client-8.png'
+import ctaImg from '../../assets/cta.jpg'
 
 const AboutUs = () => {
   return (
@@ -82,6 +93,153 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
   </div>
 </div>
     </section>
+
+    <section className='clients' id='clients'>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+    <div className="container" data-aos="zoom-out" data-aos-duration="3000">
+      <div className="row my-5">
+        <div className="col-2">
+        <img src={clientImg1} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg2} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg3} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg4} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg5} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg6} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+      </div>
+    </div>
+     
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+    <div className="container">
+      <div className="row my-5">
+        <div className="col-2">
+        <img src={clientImg2} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg3} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg4} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg5} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg6} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg7} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+    <div className="container">
+      <div className="row my-5">
+        <div className="col-2">
+        <img src={clientImg3} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg4} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg5} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg6} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg7} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+        <div className="col-2">
+        <img src={clientImg8} class="d-block w-75 img-fluid" alt="..." />
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>    
+
+    </section>
+
+<section className='cta' id='cta'>
+  <div className="container cta_bg px-5 my-5" data-aos="zoom-out" data-aos-duration="3000">
+    <div className="row">
+      <div className="col-lg-8">
+        <h3 className='pt-5 mt-5'>Alias sunt quas 
+        Cupiditate oluptas hic minima</h3>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href='#' className='cta_Btn'>Call To Action</a>
+      </div>
+      <div className="col-lg-4">
+        <img src={ctaImg} alt="" className='img-fluid rounded-3 ' style={{marginTop:"30px"}}  />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className='onFocus' id='onFocus'>
+  <div className="container-fluid p-0 " data-aos="fade-up" data-aos-duration="3000">
+    <div className="row g-0">
+      <div className="col-lg-6">
+<div className="onFocusVideoBgImg img-fluid min-vh-100 position-relative">
+<a href="https://youtu.be/LXb3EKWsInQ">
+  <span><i class="bi bi-play text-white"></i></span>
+</a>
+</div>
+      </div>
+      <div className="col-lg-6 content ">
+        <div className="onFocusContentBgImg min-vh-100 p-5 ">
+<h3>Voluptatem dignissimos provident quasi corporis</h3>
+<p>
+<em style={{fontStyle: 'italic'}}>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                      </em>
+                    </p>
+                    
+
+                    <p>
+                      <span class="bi bi-check-circle-fill"></span>Ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>
+                      <span class="bi bi-check-circle-fill"></span>Duis aute
+                      irure dolor in reprehenderit in voluptate velit.
+                    </p>
+                    <p>
+                      <span class="bi bi-check-circle-fill"></span> Ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                      irure dolor in reprehenderit in voluptate trideta
+                      storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p>
+                      Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum
+                    </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
     </>
   )
 }

@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item dropdown ">
-          <a class="nav-link active  " href="#" data-bs-toggle='dropdown '  role='button' id='dropdownMenuLink'>Home 
+          <a class="nav-link active  " href="#" data-bs-toggle='dropdown '   id='dropdownMenuLink'>Home 
           <span><i class="bi bi-chevron-down"></i></span>
           </a>
           <ul className='dropdown-menu ' aria-labelledby='dropdownMenuLink'>
