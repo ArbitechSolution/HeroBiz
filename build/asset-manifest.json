@@ -1,10 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e40f346.css",
-    "main.js": "/static/js/main.4984e926.js",
+    "main.css": "/static/css/main.0ea6690c.css",
+    "main.js": "/static/js/main.16a51ef2.js",
+    "static/media/testimonials-bg.jpg": "/static/media/testimonials-bg.2cedb539c554cb13a1b6.jpg",
+    "static/media/services-6.jpg": "/static/media/services-6.f4740cb672a4d0a8cc72.jpg",
     "static/media/onfocus-video-bg.jpg": "/static/media/onfocus-video-bg.875f3122fc13c63b08d9.jpg",
+    "static/media/services-5.jpg": "/static/media/services-5.0089ce0f738491677012.jpg",
+    "static/media/services-1.jpg": "/static/media/services-1.100d55007d05e2ff7e11.jpg",
     "static/media/about.jpg": "/static/media/about.301ebe3958ac98e542f5.jpg",
+    "static/media/services-4.jpg": "/static/media/services-4.1d07d1ba97fdb716724e.jpg",
     "static/media/cta.jpg": "/static/media/cta.e0205717e043c0d90a34.jpg",
+    "static/media/services-3.jpg": "/static/media/services-3.3668e01e19bf0da31789.jpg",
+    "static/media/services-2.jpg": "/static/media/services-2.3a297a06e96d02d22522.jpg",
     "static/media/features-6.svg": "/static/media/features-6.e52b3d4092b5bc03abdad9a495f50e47.svg",
     "static/media/features-5.svg": "/static/media/features-5.5d6e5d04c12f976118e18ada5e7557fe.svg",
     "static/media/features-2.svg": "/static/media/features-2.f452a53d1b21c4f3ad07f41e51f7705f.svg",
@@ -14,11 +21,11 @@
     "static/media/onfocus-content-bg.jpg": "/static/media/onfocus-content-bg.fc4ede47e28cc361ae20.jpg",
     "static/media/features-1.svg": "/static/media/features-1.e31d3cf07e5203b13f21a5e5677c7260.svg",
     "index.html": "/index.html",
-    "main.0e40f346.css.map": "/static/css/main.0e40f346.css.map",
-    "main.4984e926.js.map": "/static/js/main.4984e926.js.map"
+    "main.0ea6690c.css.map": "/static/css/main.0ea6690c.css.map",
+    "main.16a51ef2.js.map": "/static/js/main.16a51ef2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e40f346.css",
-    "static/js/main.4984e926.js"
+    "static/css/main.0ea6690c.css",
+    "static/js/main.16a51ef2.js"
   ]
 }

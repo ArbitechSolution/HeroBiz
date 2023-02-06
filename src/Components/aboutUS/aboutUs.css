@@ -30,6 +30,7 @@
   font-size: large;
   font-weight: 500;
   color: #485664;
+  cursor: pointer;
   
 }
  
@@ -75,6 +76,9 @@ color: #485664;
 }
 
 /* Client Section Css */
+.clients .carousel-item{
+  cursor: pointer;
+}
 .clients .carousel-item img{
   filter: grayscale(100%);
   opacity: 0.5;
@@ -132,14 +136,16 @@ transition: all 0.3s ease-in-out;
   background-position: center;
   background-size: cover;
 }
-.onFocusVideoBgImg .bi-play{
+
+
+.onFocusVideoBgImg .play-btn .bi-play{
 font-size: 40px !important;
-padding: 5px;
+padding: 15px;
 background-color: #0ea3bde1;
 border-radius: 50%;
 position: absolute;
-top: 50%;
-left: 45%;
+top: 10%;
+left: 15%;
 transition: all 0.2s ease-in-out;
 
 }

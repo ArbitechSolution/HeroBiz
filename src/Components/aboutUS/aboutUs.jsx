@@ -197,7 +197,7 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
       <div className="col-lg-6">
 <div className="onFocusVideoBgImg img-fluid min-vh-100 position-relative">
 <a href="https://youtu.be/LXb3EKWsInQ">
-  <span><i class="bi bi-play text-white"></i></span>
+  <span ><i class="bi bi-play text-white"></i></span>
 </a>
 </div>
       </div>

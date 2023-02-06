@@ -12,6 +12,7 @@
   box-shadow: 5px 5px 25px rgba(72, 86, 100, 0.15);
   box-sizing: border-box;
   text-align: center;
+  cursor: pointer;
 }
 
 .features .nav-pills .nav-link.active h4 {
