@@ -6,7 +6,7 @@ import heroCarouselImg from '../../assets/hero-carousel/hero-carousel-3.svg'
 const Navbar = () => {
   return (
     <>
-<section className='navBar position-fixed w-100 ' id='navBar'>
+<section className='navBar position-fixed w-100  ' id='navBar'>
     <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
   <div class="container-fluid   ">
     <a class="navbar-brand" href="#">
@@ -24,10 +24,10 @@ const Navbar = () => {
           <span><i class="bi bi-chevron-down"></i></span>
           </a>
           <ul className='dropdown-menu ' aria-labelledby='dropdownMenuLink'>
-            <li><a href="" className='dropdown-item active'>Home 1- index.html</a></li>
-            <li><a href="" className='dropdown-item'>Home 2- index-2.html</a></li>
-            <li><a href="" className='dropdown-item'>Home 3- index-3.html</a></li>
-            <li><a href="" className='dropdown-item'>Home 4- index-4.html</a></li>
+            <li><a href="#" className='dropdown-item active'>Home 1- index.html</a></li>
+            <li><a href="#" className='dropdown-item'>Home 2- index-2.html</a></li>
+            <li><a href="#" className='dropdown-item'>Home 3- index-3.html</a></li>
+            <li><a href="#" className='dropdown-item'>Home 4- index-4.html</a></li>
           </ul>
           
           
@@ -66,7 +66,7 @@ const Navbar = () => {
   </div>
 </nav>
 </section>
-<section className='hero-animated bg-light ' id='hero-animated'>
+<section className='hero-animated bg-light p-0 m-0' id='hero-animated'>
   <div className="container" data-aos="zoom-out" data-aos-duration="3000">
     <div className="row  ">
       <div className="col text-center">
@@ -76,7 +76,7 @@ const Navbar = () => {
         <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
         <div className="col d-flex justify-content-center align-items-center">
         <a className='btn-get-started'>Get Started</a>
-        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className='btn-watch-video'><i class="bi bi-play-circle"></i>
+        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className='btn-watch-video'><i class="bi bi-play-circle ms-lg-5 ms-md-4 ms-sm-3"></i>
         <span className='watch-video '>Watch Video</span></a>
         </div>
         </div>

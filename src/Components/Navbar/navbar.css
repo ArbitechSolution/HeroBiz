@@ -10,7 +10,7 @@
   color: #0ea2bd;
   font-weight: 500;
 }
-.bi{
+.bi-chevron-down{
 margin-left: 5px;
 font-size: 12px !important;
 }
@@ -91,7 +91,7 @@ color: white !important;
   width: 45%;
   animation: MoveUpDown 3s infinite alternate ease-in-out ;
 position: relative;
-top: 70px;
+top: 90px;
  
 }
 
@@ -100,7 +100,7 @@ top: 70px;
     transform: translateY(0);
   }
   100% {
-    transform: translateY(30px);
+    transform: translateY(40px);
   }
 }
 
@@ -124,7 +124,10 @@ top: 70px;
   color: white;
   text-decoration: none;
   cursor: pointer;
+  margin-right:5px ;
+ 
 }
+
 .hero-animated .btn-get-started:hover{
   
   background-color: #0ea3bdc2;
@@ -132,10 +135,12 @@ top: 70px;
 .hero-animated .btn-watch-video i{
   color: #0ea2bd;
   font-size: 32px !important;
-  padding: 10px 28px;
+  
+  margin-right: .3rem;
 }
 .hero-animated .btn-watch-video  {
   text-decoration: none !important; 
+  
 }
 .hero-animated .btn-watch-video .watch-video{
   color: #485664;
@@ -181,4 +186,75 @@ top: -6px;
   /* color: white !important;
   background-color: #0ea2bd; */
   
+}
+/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  
+  background-color: #485664;
+} */
+
+.navbar a, .navbar a:focus{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(var(--color-secondary-dark-rgb), 0.7);
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+
+}
+
+.navbar>ul>li>a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-primary);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out 0s;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+ .nav-link.active{
+  background-color: #0ea2bd;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
+  color: white;
+}
+
+
+
+
+
+
+@media (max-width:767.92px) {
+  p{
+    font-size: .8rem !important;
+  }
+  h1{
+    font-size: 2rem !important;
+  }
+  h2{
+    font-size: 1.8rem !important;
+  }
+  h3{
+    font-size: 1.6rem !important;
+  }
+  h4{
+    font-size: 1.4rem !important;
+  }
+  h5{
+    font-size: 1.3rem !important;
+  }
+  h6{
+    font-size: 1.2rem !important;
+  }
 }

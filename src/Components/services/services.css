@@ -6,8 +6,10 @@
 }
 .section-headContent {
   color: #8f9fae;
-  font-size: 18px;
+  width: 80%;
+  margin: auto;
   margin-bottom: 2rem;
+  
 }
 .servicesCardImg_Container {
   overflow: hidden;
@@ -60,10 +62,60 @@
   transform: scale(1.1);
 }
 
-/* Review Section */
-.bgReview_Img{
-  background: url(../../assets/testimonials-bg.jpg);
+/* testimonialsSection */
+.testimonialsBg_Img{
+  background: linear-gradient(#333e4886,#333e4886),url(../../assets/testimonials-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.testimonialsImg_box{
+
+border: 5px solid #4b5660be;
+border-radius: 50%;
+
+}
+.testimonialsImg_box img{
+  width: 80px;
+height: 80px; 
+}
+
+.testimonials h5{
+color: white;
+font-weight: 700;
+font-size: 1rem;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+.testimonials h5 + p{
+  color: rgba(255, 255, 255, 0.596);
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.testimonials p{
+  color: white;
+}
+
+.testimonials span .bi-star-fill{
+  
+  padding: 0 2px;
+  color: #FEC007;
+  
+  
+}
+
+.pricing h2{
+  font-weight: 300;
+  color: #485664;
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+.pricing p{
+  color: #8f9fae;
+  max-width: 80%;
+}
+
+

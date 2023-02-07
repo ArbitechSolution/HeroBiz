@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutUs.css'
-// import onFocusVideoBgImg from '../../' 
+
 
 
 import aboutImg from '../../assets/about.jpg'
