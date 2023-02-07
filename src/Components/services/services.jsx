@@ -16,9 +16,9 @@ import testimonials_Img5 from '../../assets/testimonials/testimonials-5.jpg';
 const Services = () => {
   return (
     <>
-    <section className="services" id="services">
-      <div className="container my-5" data-aos="fade-up" data-aos-duration="3000">
-        <div className="row ">
+    <section className="services" id="services" data-aos="fade-up" data-aos-duration="3000">
+      <div className="container my-5" >
+        <div className="row " >
           <div className="col text-center">
             <h2 className="section-heading ">Our Services</h2>
             <p className="section-headContent">
@@ -305,8 +305,8 @@ const Services = () => {
     </section>
     <section className="pricing" id="pricing">
     <div className="container py-5">
-      <div className="row">
-        <div className="col ">
+      <div className="row justify-content-center">
+        <div className="col  ">
         <h2>Our Pricing</h2>
       <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
         </div>

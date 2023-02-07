@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2891e4ee.css",
-    "main.js": "/static/js/main.051ded54.js",
+    "main.js": "/static/js/main.92dc8aa5.js",
     "static/media/testimonials-bg.jpg": "/static/media/testimonials-bg.2cedb539c554cb13a1b6.jpg",
     "static/media/services-6.jpg": "/static/media/services-6.f4740cb672a4d0a8cc72.jpg",
     "static/media/onfocus-video-bg.jpg": "/static/media/onfocus-video-bg.875f3122fc13c63b08d9.jpg",
@@ -27,10 +27,10 @@
     "static/media/features-1.svg": "/static/media/features-1.e31d3cf07e5203b13f21a5e5677c7260.svg",
     "index.html": "/index.html",
     "main.2891e4ee.css.map": "/static/css/main.2891e4ee.css.map",
-    "main.051ded54.js.map": "/static/js/main.051ded54.js.map"
+    "main.92dc8aa5.js.map": "/static/js/main.92dc8aa5.js.map"
   },
   "entrypoints": [
     "static/css/main.2891e4ee.css",
-    "static/js/main.051ded54.js"
+    "static/js/main.92dc8aa5.js"
   ]
 }
