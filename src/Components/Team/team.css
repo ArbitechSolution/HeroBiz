@@ -1,0 +1,49 @@
+.team .team-header h2{
+font-size: 3rem ;
+color: #485664;
+font-weight: 400;
+}
+.team .team-header p{
+color: #8F9FAE;
+font-size: .9rem;
+margin-bottom: 2rem;
+}
+
+.team .imgCardContent-box{
+  border-radius: 10px;
+  background-color: #FFFFFF;
+ margin-top: -60px;
+ box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.37);
+
+}
+.team .imgCardContent-box h3{
+  color: #485664;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.team .imgCardContent-box p{
+  color: #858D93;
+  font-size: 1rem;
+}
+.team .imgCardContent-box .social-links-icon{
+  margin-top: -25px;
+  margin-bottom: 1rem;
+}
+.team .imgCardContent-box .social-links-icon span{
+  padding: 0 10px;
+  color: white;
+  cursor: pointer;
+  
+}
+.team .imgCardContent-box .social-links-icon i{
+  padding: 5px;
+  background-color: #0ea2bd;
+  border-radius: 50%;
+  
+}
+/* .team .imgCardContent-box .social-links-icon i:hover{
+  opacity: 1;
+  padding: 5px;
+  background-color: #0ea2bd;
+  border-radius: 50%;
+} */

@@ -11,6 +11,7 @@ import testimonials_Img2 from "../../assets/testimonials/testimonials-2.jpg";
 import testimonials_Img3 from "../../assets/testimonials/testimonials-3.jpg";
 import testimonials_Img4 from "../../assets/testimonials/testimonials-4.jpg";
 import testimonials_Img5 from "../../assets/testimonials/testimonials-5.jpg";
+import faqImg from '../../assets/faq.jpg'
 
 const Services = () => {
   return (
@@ -638,7 +639,7 @@ const Services = () => {
       <section className="faq " id="faq">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 py-5">
+            <div className="col-lg-6 py-lg-5 py-3">
             <div className="faq-head">
               <h6>Frequently Asked <span className="faq-heading-bold">Questions</span></h6>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
@@ -705,10 +706,9 @@ const Services = () => {
   </div>
 </div>
             </div>
-            <div className="col-lg-6">
-              <div className="faq-side-img">
-                <img src="" alt="" />
-              </div>
+            <div className="col-lg-6 pt-5 ">
+                <img src={faqImg} alt="faq img not found" className="pt-5 img-fluid faq-side-img" />
+              
             </div>
           </div>
         </div>
