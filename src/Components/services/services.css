@@ -9,21 +9,17 @@
   width: 80%;
   margin: auto;
   margin-bottom: 2rem;
-  
 }
 .servicesCardImg_Container {
   overflow: hidden;
-  
 }
 .servicesCard_Img {
   transition: all 0.5s ease-in-out;
   cursor: pointer;
- 
 }
 .servicesCard_Img:hover {
   transform: scale(1.2);
 }
-
 
 .service_card span i {
   font-size: 30px !important;
@@ -37,7 +33,6 @@
   border: 4px solid white;
 }
 .service_card {
-  
   width: 300px;
   transition: all 0.3s ease-in;
   padding: 10px;
@@ -63,59 +58,189 @@
 }
 
 /* testimonialsSection */
-.testimonialsBg_Img{
-  background: linear-gradient(#333e4886,#333e4886),url(../../assets/testimonials-bg.jpg);
+.testimonialsBg_Img {
+  background: linear-gradient(#333e4886, #333e4886),
+    url(../../assets/testimonials-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* height: 30% !important; */
 }
 
-.testimonialsImg_box{
-
-border: 5px solid #4b5660be;
-border-radius: 50%;
-
+.testimonialsImg_box {
+  border: 5px solid #4b5660be;
+  border-radius: 50%;
 }
-.testimonialsImg_box img{
+.testimonialsImg_box img {
   width: 80px;
-height: 80px; 
+  height: 80px;
 }
 
-.testimonials h5{
-color: white;
-font-weight: 700;
-font-size: 1rem;
-margin-top: 10px;
-margin-bottom: 5px;
+.testimonials h5 {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-.testimonials h5 + p{
+.testimonials h5 + p {
   color: rgba(255, 255, 255, 0.596);
   font-size: 0.8rem;
   margin-bottom: 10px;
 }
 
-.testimonials p{
+.testimonials p {
   color: white;
 }
 
-.testimonials span .bi-star-fill{
-  
+.testimonials span .bi-star-fill {
   padding: 0 2px;
-  color: #FEC007;
-  
-  
+  color: #fec007;
 }
 
-.pricing h2{
+/* Pricing Section */
+.pricing h2 {
   font-weight: 300;
   color: #485664;
   margin-bottom: 20px;
   font-size: 48px;
 }
-.pricing p{
+.pricing p {
   color: #8f9fae;
   max-width: 80%;
 }
+.pricing .pricing-box {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.041);
+  border-radius: 10px;
+  border: 5px solid white;
+  margin-bottom: 3rem;
+  padding-bottom: 1.5rem ;
+}
+.pricing .pricing-box2{
+  border: 5px solid rgba(14, 162, 189, 0.9);
+  border-radius: 15px;
+}
+.pricing-box2 .pricing-headBgImg {
+  background: linear-gradient(rgba(72, 86, 100, 0.9), rgba(72, 86, 100, 0.9)),
+    url(../../assets/pricing-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  border-radius: 1px !important;
+}
+.pricing-box .pricing-headBgImg {
+  background: linear-gradient(rgba(72, 86, 100, 0.9), rgba(72, 86, 100, 0.9)),
+    url(../../assets/pricing-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:10px ;
+}
+.pricing-box2 .pricing-headBgImg {
+  background: linear-gradient(rgba(14, 162, 189, 0.9), rgba(14, 162, 189, 0.9)),
+    url(../../assets/pricing-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:10px ;
+}
+.pricing .pricing-box .pricingHead-item {
+  min-height: 150px;
+}
+.pricing .pricing-box .pricingHead-item h3,
+h4 {
+  color: white;
+  font-size: 2rem !important;
+  padding: 3px 0;
+}
+
+.pricing .pricing-box .pricingHead-item sub {
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.pricing .pricing-box .pricing-item-body {
+  padding: 30px 0;
+}
+.pricing .pricing-box .pricing-item-body p {
+  width: 100% !important;
+  margin: auto !important;
+  padding: 8px 0;
+}
+.pricing .pricing-box .pricing-item-body .bi-dot {
+  font-size: 30px !important;
+  vertical-align: middle;
+  color: #0ea2bd;
+}
+.pricing .pricing-box .pricing-item-body .x-icon{
+  font-size: 30px !important;
+  vertical-align: middle;
+  color: rgba(108, 117, 125, 0.5);
+}
+.pricing .pricing-box .pricing-btn-box{
+  margin: 1.5rem 0;
+}
+.pricing .pricing-box .pricing-btn-box a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.pricing .pricing-box .pricing-btn{
+  padding: .9rem 2rem;
+  background-color:#FFFFFF ;
+  border: 1px solid #0EA2BD;
+  border-radius: 8px;
+}
+.pricing .pricing-box .pricing-btn:hover{
+background-color: #0EA2BD;
+color: #FFFFFF;
+}
+.pricing  .pricing-box2 .pricing-btn{
+  padding: .9rem 2rem;
+  
+  border: 1px solid #0EA2BD;
+  border-radius: 8px;
+  background-color: #0EA2BD;
+  color: #FFFFFF;
+}
+
+/* Frequently Asked Questions Section */
+.faq .faq-head h6{
+  color: #485664;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.faq .faq-head .faq-heading-bold{
+  font-weight: bold !important;
+}
+.faq .faq-head p{
+  padding: 5px 0;
+  color: #8f9fae;
+  font-size: .9rem;
+}
+
+.faq .accordion-button{
+  box-shadow: 2px 5px 25px #1a1f2411;
+  margin-bottom: 20px;
+  
+}
+
+.faq .accordion-button:not(.collapsed) {
+  color: #0ea2bd;
+  background-color: white;
+   
+  
+}
+.faq .accordion-button:focus {
+
+  box-shadow: none ;
+  
+  border-color: rgba(0,0,0,.125);
+  
+}
+
+
 
 

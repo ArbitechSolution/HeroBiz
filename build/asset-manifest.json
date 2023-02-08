@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2891e4ee.css",
-    "main.js": "/static/js/main.92dc8aa5.js",
+    "main.css": "/static/css/main.cf058937.css",
+    "main.js": "/static/js/main.eaf0d3c3.js",
     "static/media/testimonials-bg.jpg": "/static/media/testimonials-bg.2cedb539c554cb13a1b6.jpg",
     "static/media/services-6.jpg": "/static/media/services-6.f4740cb672a4d0a8cc72.jpg",
     "static/media/onfocus-video-bg.jpg": "/static/media/onfocus-video-bg.875f3122fc13c63b08d9.jpg",
@@ -10,6 +10,7 @@
     "static/media/about.jpg": "/static/media/about.301ebe3958ac98e542f5.jpg",
     "static/media/services-4.jpg": "/static/media/services-4.1d07d1ba97fdb716724e.jpg",
     "static/media/cta.jpg": "/static/media/cta.e0205717e043c0d90a34.jpg",
+    "static/media/pricing-bg.jpg": "/static/media/pricing-bg.aa11479daba98620632c.jpg",
     "static/media/testimonials-2.jpg": "/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
     "static/media/services-3.jpg": "/static/media/services-3.3668e01e19bf0da31789.jpg",
     "static/media/services-2.jpg": "/static/media/services-2.3a297a06e96d02d22522.jpg",
@@ -26,11 +27,11 @@
     "static/media/onfocus-content-bg.jpg": "/static/media/onfocus-content-bg.fc4ede47e28cc361ae20.jpg",
     "static/media/features-1.svg": "/static/media/features-1.e31d3cf07e5203b13f21a5e5677c7260.svg",
     "index.html": "/index.html",
-    "main.2891e4ee.css.map": "/static/css/main.2891e4ee.css.map",
-    "main.92dc8aa5.js.map": "/static/js/main.92dc8aa5.js.map"
+    "main.cf058937.css.map": "/static/css/main.cf058937.css.map",
+    "main.eaf0d3c3.js.map": "/static/js/main.eaf0d3c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.2891e4ee.css",
-    "static/js/main.92dc8aa5.js"
+    "static/css/main.cf058937.css",
+    "static/js/main.eaf0d3c3.js"
   ]
 }

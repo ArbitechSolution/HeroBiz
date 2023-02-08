@@ -19,9 +19,10 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div className="">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item dropdown ">
-          <a class="nav-link active  " href="#" data-bs-toggle='dropdown '   id='dropdownMenuLink'>Home 
-          <span><i class="bi bi-chevron-down"></i></span>
+      
+      {/* <li className="nav-item dropdown">
+          <a className="nav-link active "  data-bs-toggle='dropdown'   id='dropdownMenuLink'   aria-expanded="false">Home 
+          <span><i className="bi bi-chevron-down data-bs-toggle"></i></span>
           </a>
           <ul className='dropdown-menu ' aria-labelledby='dropdownMenuLink'>
             <li><a href="#" className='dropdown-item active'>Home 1- index.html</a></li>
@@ -31,7 +32,7 @@ const Navbar = () => {
           </ul>
           
           
-        </li>
+        </li> */}
         
         <li class="nav-item">
           <a class="nav-link" href="#aboutUs">About</a>
