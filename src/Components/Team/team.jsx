@@ -61,6 +61,7 @@ const Team = () => {
 </div>
             </div>
             <div className="col-lg-4">
+            <div className="team-member">
               <img src={teammemberImg3} alt="teammemberImg1 not found" className="img-fluid rounded-3" />
               <div className="d-flex justify-content-center">
               <div className="col-11 ">
@@ -78,6 +79,7 @@ const Team = () => {
               </div>
 </div>
             </div>
+          </div>
           </div>
         </div>
       </section>

@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c341fd8f.css",
-    "main.js": "/static/js/main.17c54867.js",
+    "main.css": "/static/css/main.4c1518c3.css",
+    "main.js": "/static/js/main.a98caff4.js",
     "static/media/testimonials-bg.jpg": "/static/media/testimonials-bg.2cedb539c554cb13a1b6.jpg",
+    "static/media/blog-2.jpg": "/static/media/blog-2.fac20169ee58c41a0dbf.jpg",
+    "static/media/blog-5.jpg": "/static/media/blog-5.ecc0eaf3938b305cb857.jpg",
     "static/media/services-6.jpg": "/static/media/services-6.f4740cb672a4d0a8cc72.jpg",
     "static/media/faq.jpg": "/static/media/faq.dbe5709e3c6434335ff8.jpg",
+    "static/media/blog-3.jpg": "/static/media/blog-3.73a39c459d98fefe4e38.jpg",
+    "static/media/blog-4.jpg": "/static/media/blog-4.39ccdc0537ef2dacc230.jpg",
     "static/media/onfocus-video-bg.jpg": "/static/media/onfocus-video-bg.875f3122fc13c63b08d9.jpg",
     "static/media/services-5.jpg": "/static/media/services-5.0089ce0f738491677012.jpg",
     "static/media/services-1.jpg": "/static/media/services-1.100d55007d05e2ff7e11.jpg",
+    "static/media/blog-6.jpg": "/static/media/blog-6.485fda565b0a66390161.jpg",
     "static/media/about.jpg": "/static/media/about.301ebe3958ac98e542f5.jpg",
+    "static/media/blog-1.jpg": "/static/media/blog-1.4a21f926fd28128c4ad2.jpg",
     "static/media/services-4.jpg": "/static/media/services-4.1d07d1ba97fdb716724e.jpg",
     "static/media/cta.jpg": "/static/media/cta.e0205717e043c0d90a34.jpg",
     "static/media/pricing-bg.jpg": "/static/media/pricing-bg.aa11479daba98620632c.jpg",
@@ -31,11 +37,11 @@
     "static/media/onfocus-content-bg.jpg": "/static/media/onfocus-content-bg.fc4ede47e28cc361ae20.jpg",
     "static/media/features-1.svg": "/static/media/features-1.e31d3cf07e5203b13f21a5e5677c7260.svg",
     "index.html": "/index.html",
-    "main.c341fd8f.css.map": "/static/css/main.c341fd8f.css.map",
-    "main.17c54867.js.map": "/static/js/main.17c54867.js.map"
+    "main.4c1518c3.css.map": "/static/css/main.4c1518c3.css.map",
+    "main.a98caff4.js.map": "/static/js/main.a98caff4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c341fd8f.css",
-    "static/js/main.17c54867.js"
+    "static/css/main.4c1518c3.css",
+    "static/js/main.a98caff4.js"
   ]
 }

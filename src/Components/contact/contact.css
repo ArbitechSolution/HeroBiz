@@ -1,0 +1,113 @@
+.contact h3{
+  font-size: 3rem !important;
+  color: #485664;
+  font-weight: 300 ;
+  
+}
+.contact p{
+  color: #8F9FAE;
+  font-size: 1rem;
+
+}
+
+.contact .card-box{
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.089);
+  
+}
+
+.contact .card-box .card-content h5{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: .9rem !important;
+}
+.contact .card-box .card-content p{
+  
+  font-size: .92rem !important;
+}
+.contact .card-box .card-content .info-item {
+  border-bottom: 1px solid #8f9fae6c;
+}
+.contact .card-box .card-content .info-item i{
+  color: #0ea2bd !important;
+  font-size: 1.5rem;
+  margin-right: 3px;
+  
+ 
+}
+
+.contact .card-box .card-content .info-item h5{
+  font-size: 1.1rem;
+  font-weight: 500;
+ padding-top:5px ;
+ 
+  color: #485664;;
+}
+
+.input{
+  padding: 10px 20px;
+}
+
+.contact .contact-btn{
+margin-top: 10px;
+}
+.contact .contact-btn a{
+  
+  padding: 13px 30px;
+  background-color: #0ea2bd;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+.contact .contact-btn a:hover{
+  background-color: #0ea3bde5;
+}
+
+/* Footer Section */
+
+.footer .bg{
+  background-color: #485664;
+}
+.footer .footer-item h3{
+  color: white;
+  font-weight: 600;
+}
+.footer .footer-item p{
+  color: white;
+  font-size: .8rem;
+  
+}
+.footer hr{
+  margin: 0;
+  width: 23px !important;
+  height: 1px !important;
+  color: #0ea2bd !important;
+  opacity: 1;
+  padding: 1px !important;
+}
+.footer .useful-links {
+  color: rgba(255, 255, 255, 0.705);
+}
+.footer .useful-links p{
+margin-bottom: .5rem;
+font-size: .9rem;
+cursor: pointer;
+}
+.footer .useful-links p:hover{
+  color: rgba(255, 255, 255, 0.911);
+}
+.footer .useful-links .bi-chevron-right{
+  font-size: .8rem !important;
+}
+
+.footer .newsletter-content p{
+  color: white;
+  font-size: .85rem;
+}
+
+.footer .newsletter-content .subscribe-btn{
+  /* padding: 7px 12px; */
+  /* margin-top: 1rem; */
+  color: white;
+  background-color: #0ea2bd;
+}

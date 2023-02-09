@@ -47,3 +47,15 @@ margin-bottom: 2rem;
   background-color: #0ea2bd;
   border-radius: 50%;
 } */
+.team .team-member .social-links-icon i{
+  /* opacity: 0; */
+}
+.team .team-member:hover .social-links-icon i{
+/* opacity: 1; */
+/* color: #367ec5;
+background-color: #485664; */
+padding: 5px;
+background-color: #0ea2bd;
+border-radius: 50%;
+
+}

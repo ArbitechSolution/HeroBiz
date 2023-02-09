@@ -5,6 +5,8 @@ import NavTabs from './Components/navTabs/navTabs';
 import AboutUs from './Components/aboutUS/aboutUs';
 import Services from './Components/services/services';
 import Team from './Components/Team/team';
+import Blog from './Components/blog/blog';
+import Contact from './Components/contact/contact';
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
 <NavTabs/>
 <Services />
 <Team />
+<Blog />
+<Contact />
+
    </>
   );
 }
