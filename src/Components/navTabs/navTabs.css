@@ -17,6 +17,13 @@
 
 .features .nav-pills .nav-link.active h4 {
   color: #fff !important;
+ 
+}
+.features .nav-pills .nav-link h4{
+  font-size: 1.2rem !important;
+  color: #485664;
+  
+  font-weight: 600;
 }
 
 .features .tab-content .tab-pane h3 {
@@ -48,11 +55,7 @@
   background-color: #22889f !important;
 }
 
-.features .nav-item h4 {
-  color: #485664;
-  font-size: 20px;
-  font-weight: 600;
-}
+
 
 .features .bi-brightness-high {
   font-size: 40px !important;

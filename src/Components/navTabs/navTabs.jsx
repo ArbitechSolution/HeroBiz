@@ -10,7 +10,7 @@ const NavTabs = () => {
   return (
     <>
       <section className="features" id="features">
-        <div className="container"  data-aos="fade-up" data-aos-duration="3000">
+        <div className="container"  >
           <ul
             class="nav nav-pills red  row mb-3 "
             id="pills-tab"

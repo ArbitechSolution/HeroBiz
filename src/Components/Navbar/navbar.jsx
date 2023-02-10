@@ -44,10 +44,10 @@ const Navbar = () => {
           <a class="nav-link" href="#">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Team</a>
+          <a class="nav-link" href="#team">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="#blog">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Mega Menu</a>
@@ -56,7 +56,7 @@ const Navbar = () => {
           <a class="nav-link" href="#">DropDown</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
         
         
@@ -67,8 +67,8 @@ const Navbar = () => {
   </div>
 </nav>
 </section>
-<section className='hero-animated bg-light p-0 m-0' id='hero-animated'  data-aos="zoom-out" data-aos-duration="3000">
-  <div className="container" >
+<section className='hero-animated bg-light p-0 m-0' id='hero-animated'  >
+  <div className="container"    >
     <div className="row m-0  " >
       <div className="col text-center" >
         <img src={heroCarouselImg} alt="" className='img-fluid animated '  />

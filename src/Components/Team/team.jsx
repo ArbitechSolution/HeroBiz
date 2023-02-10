@@ -7,10 +7,10 @@ import teammemberImg3 from '../../assets/team/team-3.jpg'
 const Team = () => {
   return (
     <>
-      <section className="team" id="team">
+      <section className="team " id="team"   >
         <div className="container">
           <div className="row">
-            <div className="col py-5 ">
+            <div className="col py-5 " >
             <div className="team-header d-flex flex-column justify-content-center align-items-center text-center">
               <h2>Our Team</h2>
               <p className="col-9">
@@ -25,11 +25,12 @@ const Team = () => {
           </div>
           <div className="row pb-5">
             <div className="col-lg-4">
+            <div className="team-card">
               <img src={teammemberImg1} alt="teammemberImg1 not found" className="img-fluid rounded-3" />
               <div className="d-flex justify-content-center">
               <div className="col-11 ">
               
-              <div className="imgCardContent-box text-center py-3   ">
+              <div className="imgCardContent-box text-center py-3 mb-5  ">
               <div className="social-links-icon">
                 <span><i class="bi bi-twitter"></i></span>
                 <span><i class="bi bi-facebook"></i></span>
@@ -42,12 +43,14 @@ const Team = () => {
               </div>
 </div>
             </div>
+            </div>
             <div className="col-lg-4">
+            <div className="team-card">
               <img src={teammemberImg2} alt="teammemberImg1 not found" className="img-fluid rounded-3" />
               <div className="d-flex justify-content-center">
               <div className="col-11 ">
               
-              <div className="imgCardContent-box text-center py-3   ">
+              <div className="imgCardContent-box text-center py-3  mb-5 ">
               <div className="social-links-icon">
                 <span><i class="bi bi-twitter"></i></span>
                 <span><i class="bi bi-facebook"></i></span>
@@ -59,14 +62,16 @@ const Team = () => {
                             </div>
               </div>
 </div>
+</div>
             </div>
             <div className="col-lg-4">
+            <div className="team-card">
             <div className="team-member">
               <img src={teammemberImg3} alt="teammemberImg1 not found" className="img-fluid rounded-3" />
               <div className="d-flex justify-content-center">
               <div className="col-11 ">
               
-              <div className="imgCardContent-box text-center py-3   ">
+              <div className="imgCardContent-box text-center py-3 mb-5  ">
               <div className="social-links-icon">
                 <span><i class="bi bi-twitter"></i></span>
                 <span><i class="bi bi-facebook"></i></span>
@@ -78,6 +83,7 @@ const Team = () => {
                             </div>
               </div>
 </div>
+            </div>
             </div>
           </div>
           </div>

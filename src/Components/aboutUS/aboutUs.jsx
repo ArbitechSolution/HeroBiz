@@ -17,8 +17,7 @@ import ctaImg from '../../assets/cta.jpg'
 const AboutUs = () => {
   return (
     <>
-    <section className='aboutUs' id='aboutUs' data-aos="fade-up"
-    data-aos-duration="3000">
+    {/* <section className='aboutUs' id='aboutUs' >
       <div className="container " >
         <div className="row m-0 py-5">
           <div className="col">
@@ -31,7 +30,7 @@ const AboutUs = () => {
             <div className="col-lg-5">
               <div className="aboutBg-img">
                 <img src={aboutImg} className='img-fluid about-img' alt="aboutImg not found" />
-                {/* <img src={aboutImg} alt="" /> */}
+                
               </div>
             </div>
             <div className="col-lg-7 pt-lg-5 ps-5">
@@ -83,7 +82,7 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
         </div>
         
       </div>
-    </section>
+    </section> */}
     {/* <section className='brandLogos' id='brandLogos'>
 <div className="container">
   <div className="row">
@@ -101,7 +100,7 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="3000">
-    <div className="container" data-aos="zoom-out" data-aos-duration="3000">
+    <div className="container" >
       <div className="row my-5">
         <div className="col-2">
         <img src={clientImg1} class="d-block w-75 img-fluid" alt="..." />
@@ -181,11 +180,11 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
 
     </section>
 
-{/* <section className='cta' id='cta'>
-  <div className="container cta_bg  my-5" data-aos="zoom-out" data-aos-duration="3000">
-    <div className="row">
+<section className='cta' id='cta' >
+  <div className="container   my-5" >
+    <div className="row p-lg-5 p-3">
       <div className="col-lg-8">
-        <h3 className='pt-5 mt-5'>Alias sunt quas 
+        <h3 className='pt-5 mt-5 cta-heading'>Alias sunt quas 
         Cupiditate oluptas hic minima</h3>
         <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <a href='#' className='cta_Btn'>Call To Action</a>
@@ -195,10 +194,10 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
       </div>
     </div>
   </div>
-</section> */}
+</section>
 
-{/* <section className='onFocus' id='onFocus'>
-  <div className="container-fluid p-0 " data-aos="fade-up" data-aos-duration="3000">
+<section className='onFocus' id='onFocus'>
+  <div className="container-fluid p-0 " >
     <div className="row g-0">
       <div className="col-lg-6">
 <div className="onFocusVideoBgImg img-fluid min-vh-100 position-relative">
@@ -245,7 +244,7 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
       </div>
     </div>
   </div>
-</section> */}
+</section>
     </>
   )
 }

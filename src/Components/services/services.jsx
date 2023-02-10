@@ -19,8 +19,7 @@ const Services = () => {
       <section
         className="services "
         id="services"
-        data-aos="fade-up"
-        data-aos-duration="3000"
+       
       >
         <div className="container my-5">
           <div className="row ">
@@ -173,8 +172,7 @@ const Services = () => {
                   id="carouselExampleIndicators"
                   class="carousel slide"
                   data-bs-ride="carousel"
-                  data-aos="fade-up"
-                  data-aos-duration="3000"
+                 
                 >
                   <div class="carousel-indicators">
                     <button
@@ -214,7 +212,7 @@ const Services = () => {
                     <div class="carousel-item active">
                       <div className="container">
                         <div className="row">
-                          <div className="col  min-vh-100 d-flex  flex-column justify-content-center align-items-center text-center">
+                          <div className="col min-vh-100  d-flex  flex-column justify-content-center align-items-center text-center">
                             <div className="testimonialsImg_box d-flex justify-content-center ">
                               <img
                                 src={testimonials_Img1}
@@ -427,7 +425,7 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section className="pricing min-vw-100 bg-light" id="pricing">
+      <section className="pricing  bg-light" id="pricing">
         <div className="container bg-light ">
           <div className="row py-5">
             <div className="col d-flex flex-column   align-items-center text-center  ">

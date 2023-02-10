@@ -1,3 +1,6 @@
+.carousel-item .min-vh-100{
+  min-height: 500px !important;
+}
 .section-heading {
   font-size: 42px;
   font-weight: 300;
@@ -239,6 +242,12 @@ color: #FFFFFF;
   
   border-color: rgba(0,0,0,.125);
   
+}
+.faq .accordion-button img{
+  transform: scale(1);
+}
+.faq .accordion-button:focus img{
+  transform: scale(1.3);
 }
 
 
