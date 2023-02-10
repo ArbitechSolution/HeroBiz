@@ -131,7 +131,7 @@ a {
   width: 45%;
   animation: MoveUpDown 3s infinite alternate ease-in-out ;
 position: relative;
-top: 90px;
+top: 60px;
  
 }
 
@@ -140,7 +140,7 @@ top: 90px;
     transform: translateY(0);
   }
   100% {
-    transform: translateY(40px);
+    transform: translateY(50px);
   }
 }
 

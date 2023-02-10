@@ -13,11 +13,11 @@ function App() {
    <>
     <Navbar />
 <AboutUs />
-<NavTabs/>
+{/* <NavTabs/>
 <Services />
 <Team />
 <Blog />
-<Contact />
+<Contact /> */}
 
    </>
   );

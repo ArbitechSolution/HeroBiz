@@ -19,8 +19,8 @@ const AboutUs = () => {
     <>
     <section className='aboutUs' id='aboutUs' data-aos="fade-up"
     data-aos-duration="3000">
-      <div className="container" >
-        <div className="row  ">
+      <div className="container " >
+        <div className="row m-0 py-5">
           <div className="col">
           <div className="section-header d-flex flex-column justify-content-center align-items-center ">
           <h2>About Us</h2>
@@ -84,7 +84,7 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
         
       </div>
     </section>
-    <section className='brandLogos' id='brandLogos'>
+    {/* <section className='brandLogos' id='brandLogos'>
 <div className="container">
   <div className="row">
     <div className="col">
@@ -92,10 +92,13 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
     </div>
   </div>
 </div>
-    </section>
+    </section> */}
 
     <section className='clients' id='clients'>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div className="container">
+      <div className="row">
+        <div className="col">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="3000">
     <div className="container" data-aos="zoom-out" data-aos-duration="3000">
@@ -171,12 +174,15 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
     </div>
     </div>
   </div>
-</div>    
+</div> 
+        </div>
+      </div>
+    </div>   
 
     </section>
 
-<section className='cta' id='cta'>
-  <div className="container cta_bg px-5 my-5" data-aos="zoom-out" data-aos-duration="3000">
+{/* <section className='cta' id='cta'>
+  <div className="container cta_bg  my-5" data-aos="zoom-out" data-aos-duration="3000">
     <div className="row">
       <div className="col-lg-8">
         <h3 className='pt-5 mt-5'>Alias sunt quas 
@@ -189,9 +195,9 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
-<section className='onFocus' id='onFocus'>
+{/* <section className='onFocus' id='onFocus'>
   <div className="container-fluid p-0 " data-aos="fade-up" data-aos-duration="3000">
     <div className="row g-0">
       <div className="col-lg-6">
@@ -239,7 +245,7 @@ Omnis ab quia nemo dignissimos rem eum quos..</h6>
       </div>
     </div>
   </div>
-</section>
+</section> */}
     </>
   )
 }

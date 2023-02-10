@@ -158,7 +158,7 @@ Services</p>
 <form >
 <div className="d-flex">
   <input type="text" id="fname" name="fname" className="input mt-3 rounded-3"/>
-  {/* <input type="text" id="fname" name="fname" className="input mt-3 rounded-3 "/> */}
+ 
   
   </div>
 </form>
@@ -169,6 +169,35 @@ Services</p>
           </div>
         </div>
 
+        </div>
+      </section>
+      <section className="footer-links" id='footer-links'>
+        <div className="bg-color">
+          <div className="container">
+            <div className="row py-4">
+              <div className="col d-lg-flex justify-content-lg-between ">
+                <div className="col-lg-4 px-lg-2  ">
+                  <div className="copyright ">
+                  <p><span>© Copyright</span><strong className="px-1">HeroBiz.</strong>All Rights Reserved 
+Designed by <a href="#">BootstrapMade</a></p> 
+                  
+                  </div>
+                </div>
+                <div className="col-lg-4 px-lg-2  ">
+                  <div className="copyright ">
+                  <div className=" social-links-icon">
+                <span><i class="bi bi-twitter"></i></span>
+                <span><i class="bi bi-facebook"></i></span>
+                <span><i class="bi bi-instagram"></i></span>
+                <span><i class="bi bi-skype"></i></span>
+                <span><i class="bi bi-linkedin"></i></span>
+              </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
